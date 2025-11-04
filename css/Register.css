@@ -1,0 +1,33 @@
+form{
+background-color: aqua;
+margin: auto;
+box-shadow: 0 0 12px beige;
+color: black;
+
+}
+
+Legend{
+     font-size: 30px;
+font-weight: bold;
+text-align: center;
+text-shadow: 0 0 10px grey;
+
+}
+
+
+body{
+background-image: url("../Assets/background image.jpeg");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

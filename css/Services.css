@@ -1,0 +1,44 @@
+h1{text-align: center;
+ color: bisque;
+
+}
+
+#aleckyy{font-size: 40px;
+     background-color: aquamarine;
+   color: blue;
+   text-align: center;
+
+}
+
+.paragraph{
+     font-weight: bold;
+     font-style: italic;
+
+}
+
+#vip{
+    background-color: antiquewhite;
+    display: flex;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 30px;
+
+}
+
+#vip:hover{
+    background-color: azure;
+}
+
+#surprises{
+       display: flex;
+
+}
+
+#surprises img{
+       margin-right: 30px;
+}
+
+
+
+
+

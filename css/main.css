@@ -1,0 +1,20 @@
+h1{color: aqua;
+   font-size: 58px;
+    text-shadow: 4px 4px 8px grey;
+}
+
+button{background-color: blue;
+       color: black;
+       width: 188px;
+       padding: 20px;
+       margin-left: 20px;
+      border-radius: 100px;
+}
+
+button:hover{
+    background-color: grey;
+}
+
+img{width: 300px;
+    height: 300px;
+}
