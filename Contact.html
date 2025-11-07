@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      width: 800px;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .left {
+      background-color: #00bcd4;
+      color: white;
+      width: 40%;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .left h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .left p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .right {
+      width: 60%;
+      padding: 40px;
+    }
+
+    .right h2 {
+      margin-bottom: 20px;
+      color: #000;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      margin-bottom: 15px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      outline: none;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #00bcd4;
+    }
+
+    button {
+      background-color: #00bcd4;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #0097a7;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <h2>Let's Chat</h2>
+      <p>Whether you have a question, want to start a project, or simply want to connect, feel free to send me a message using the contact form.</p>
+    </div>
+    <div class="right">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Name *" required>
+        <input type="email" placeholder="Email *" required>
+        <input type="text" placeholder="Company">
+        <input type="text" placeholder="Phone">
+        <textarea placeholder="Message" rows="4"></textarea>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
